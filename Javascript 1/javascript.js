@@ -12,7 +12,7 @@ Utilizando lo aprendido escribir el código necesario para que dada una distanci
 
 
 
-/* CODIGO EJERCICIO 1  
+/* CODIGO EJERCICIO 1   */
 
 alert ("Pone una cantidad numerica");
 let recorrer = prompt ("cuantos metros tenes que recorrer");
@@ -32,15 +32,12 @@ else if (recorrer >= 30000 && recorrer <100000) {
 else if (recorrer > 100000) 
     alert ("recorrer en Avion")
 
-*/
+
 
 
 /* EJERCICIO 2 
-
-Haciendo uso de los bucles, recorrer un array de números y determinar cual es el mayor 
 */
 
-// Definir un arreglo de números
 const numeros = [1, 5, 3, 9, 2, 7];
 const numeroMaximo = Math.max(...numeros);
 
