@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<div class="cuadrado1">Uno</div>
+<div class="cuadrado2">Dos</div>
+<div class="cuadrado3">Tres</div>
+
+<textarea id="myTextarea" rows="4" cols="50"></textarea>
+<p>
+  Caracteres restantes: <span id="counter" class="counter"></span>
+</p>
+
+<script>
+    const textarea = document.getElementById("myTextarea");
+    const counter = document.getElementById("counter");
+
+    textarea.addEventListener("input", updateCounter);
+
+    function updateCounter() {
+      const maxLength = 50; /* puse los caracteres que me quedan */
+      const currentLength = textarea.value.length;
+      const remainingLength = maxLength - currentLength;
+
+      counter.textContent = remainingLength;
+
+      if (remainingLength < 0) {
+        counter.classList.add("counter");
+      } else {
+        counter.classList.remove("counter");
+      }
+    }
+  </script>
+
+<script src="codigo.js"></script>
+
+</body>
+</html>

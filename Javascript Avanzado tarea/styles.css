@@ -1,0 +1,56 @@
+
+.cuadrado1{
+    border-radius: 50px;
+    margin: 2em 2em;
+    color: orange;
+    border: red solid 2px;
+    width: 10em;
+    height: 4em;
+    padding-left: 100px;
+    background-color: brown;
+
+}
+
+.cuadrado2{
+    border-radius: 50px;
+    margin: 2em 2em;
+    color: yellowgreen;
+    border: black solid 2px;
+    width: 10em;
+    height: 4em;
+    padding-left: 100px;
+    background-color: aqua;
+    
+
+}
+
+.cuadrado3 {
+    border-radius: 50px;
+    margin: 2em 2em;
+    color: white;
+    border: bisque solid 2px;
+    width: 10em;
+    height: 4em;
+    padding-left: 100px;
+    background-color: blue;
+    
+
+}
+.cuadrado3-active {
+width: 10em;
+height: 10em;
+background-color: rgba(255, 0, 0, 0.5);
+margin: 2em 2em;
+}
+
+
+#myTextarea {
+    width: 200px;
+    height: 100px;
+    padding: auto;
+    font-size: 16px;
+    border: 2px solid aqua;
+    border-radius: 4px;
+    background-color: brown;
+    color: white;
+  }
