@@ -1,0 +1,26 @@
+.navbar1 {
+
+    background-color::white;
+    padding: 1em;
+}
+
+.navbar-text {
+    
+    color: red;
+    font-size: 15px;
+    font-style: oblique;
+}
+
+.w-100 {
+    width: 100%!important;
+}
+
+.imagen {
+    height: 20em;
+    max-width: 100%;
+}
+
+.contenedora {
+background-color:gray;
+padding: 10em;
+}
