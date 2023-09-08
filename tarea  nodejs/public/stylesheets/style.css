@@ -1,0 +1,336 @@
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-color:  white;
+  
+}
+/* formulario */
+.formulario-contacto { 
+  background-color: rgba(128, 128, 128, 0.185);
+  border: 0.1em solid rgba(0, 0, 0, 0.274);
+  border-radius: 1em;
+  padding: 1em;
+}
+
+.mensaje-envio { 
+  text-align: center;
+  padding: 0.5em;
+  margin: 1em;
+  border-radius: 1em;
+}
+
+/* MAIN CONTENT */
+
+.main-content { 
+  background-image: url(/imagenes/fondo-madera.jpg);
+}
+
+/* titulo de productos */
+.heading-1 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 3rem;
+
+}
+.top-products {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.container-options {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+.container-options span {
+  color: #777;
+  background-color: #ffffff;
+  padding: .7rem 3rem;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+.container-options span:hover{
+  background-color:gold;
+  color: #ffffff;
+}
+.container-options span.active {
+  background-color:gold;
+  color: #ffffff;
+}
+
+
+/* PRODUCTOS */
+
+.container.products {
+  display: grid;
+  grid-template-columns:repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 3rem;
+}
+
+.card-product {
+  background-color: #ffffff;
+  padding: 2rem 3rem;
+  border-radius: 5rem;
+  cursor: pointer;
+} 
+
+
+
+.contenedor {
+  display: flex;
+  max-width: 100%;
+  height: 80vh;
+  background-image: url(/imagenes/velasjpg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+.contenedor .wrap {
+max-width: 1000px;
+margin: 0 auto;
+height: 100%;
+display: flex;
+flex-flow: row wrap;
+justify-content: left;
+}
+
+.contenedor .wrap .box {
+
+flex-basis: 50%;
+color: black;
+text-align: left;
+align-self: center;
+}
+
+.contenedor .wrap .box span {
+font-size: 40px;
+letter-spacing: 2px;
+font-weight: 300px;
+
+}
+.contenedor .wrap .box h1 {
+  font-size: 35px;
+  line-height: 0.9;
+  padding-bottom: 10px;
+
+  }
+  .contenedor .wrap .box p {
+   font-size: 14px;
+  color: transparent;
+    }
+
+
+.contenedor .wrap .botones {
+display: flex;
+margin-top: 17px;
+flex-flow: row wrap;
+}
+.contenedor .wrap .botones .btn1 {
+  flex-basis: 30%;
+  border:solid 2px;
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
+  margin-right: 20px;
+  text-align: center;
+  text-decoration: none;
+  color:black;
+  font-style: italic;
+  font-size:24px;
+  font-weight: bolder;
+
+  }
+  .contenedor .wrap .botones .btn2 {
+    flex-basis: 30%;
+    background-color:transparent;
+    border:solid 2px;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    margin-right: 20px;
+    text-align:center;
+    text-decoration: none;
+    color: goldenrod;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: bolder;
+    }
+  
+  /*Efectos*/
+  .contenedor .wrap .botones .btn1:hover {
+    background-color: rgba(255, 255, 255, .3);
+  }
+  .contenedor .wrap .botones .btn2:hover {
+    background-color: rgba(255, 255, 255, .3);
+    color: white;
+    border-color:goldenrod;
+ }
+  
+
+ /* CAROUSEL */
+
+
+/* Estilos para la barra de navegación */
+.container-fluid {
+background-color: white;
+
+}
+.navbar {
+    background: goldenrod; /* Fondo difuminado con transparencia */
+}
+  
+  .navbar-brand {
+    color: rgba(59, 3, 3, 0.8);/* Color de las letras blancas */
+    font-size: 30px;
+
+  }
+  
+  /* Estilos para el botón de la barra de navegación */
+  .navbar-toggler {
+    background-color: goldenrod; /* Color de fondo del botón */
+    
+  }
+  
+  .nav-link {
+    color: goldenrod; /* Color de las letras blancas */
+    font-size: 30px;
+    
+  }
+  
+  .dropdown-menu {
+    background-color: goldenrod; /* Fondo difuminado del menú desplegable */
+    font-size: 30px;
+  }
+  
+  .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+   color: goldenrod;
+   background-color: transparent;
+   border-bottom:2px solid black;
+   
+}
+
+
+.dropdown-item {
+color:white;
+
+}
+
+img, svg {
+    vertical-align: middle;
+    width: 150px;
+}
+
+
+/**PRODUCTOS - CARD STYLES **/
+
+.row {
+  padding :  6%!important;
+  background-image:url(/imagenes/fondo-madera.jpg);
+}
+.card {
+background-color: rgba(128, 128, 128, 0.573);
+border-radius: 4%; 
+color: black;
+font-size: 25px;
+font-weight: bolder;
+}
+
+
+.card-img {
+border-radius: 10%;
+}
+
+ /*FOOTER STYLES */
+.container {
+  max-width: 1200px;
+  margin:0 auto;
+}
+
+.footer {
+  background-color: #242628;
+  padding: 80px 0;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-links {
+  width: 25%;
+  padding: 0 15px;
+
+}.footer-links h4{
+font-size: 20px;
+color: #ffffff;
+margin-bottom: 25px;
+font-weight: 500;
+border-bottom: 2px solid goldenrod;
+padding-bottom: 10px;
+display: inline-block;
+}
+
+.footer-links ul li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #bbbbbb;
+  display: block;
+  margin-bottom: 15px;
+  transition: all .3s ease;
+}
+.footer-links ul li a:hover {
+  color: goldenrod;
+  padding-left: 6px;
+}
+
+.social-link a {
+  display: inline-block;
+  min-height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all .5s ease;
+}
+
+.social-link a:hover {
+  background-color: goldenrod;
+}
+
+
+.mapa {
+margin-top: 70px;
+margin-bottom: 60px;
+background-color:  white;
+
+}
+
+
+
+
+
+
+
+
+/**responsive**/
+
+@media(max-width:991px)
+{
+  .footer-row {
+    text-align: center;
+  }
+  .footer-links {
+    width: 100%;
+    margin-bottom: 30px;
+
+  }
+}
+
+
